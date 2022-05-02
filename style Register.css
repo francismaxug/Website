@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(#00000080,hsl(214, 25%, 84%)),url(signup\ i.jpg); 
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
+}
+.login{
+    width: 490px;
+    height: 390px;
+    background: rgba(139, 139, 216, 0.432);
+    color: #fff;
+    left: 70%;
+    margin-left: 0px;
+    position: absolute;
+    box-sizing: border-box;
+    transform: translate(-50%, -50%);
+    padding: 40px;
+    top: 280px;
+    text-align: center;
+    border-radius: 50px;
+
+    
+}
+.login h3{
+    margin:15px 5px;
+    font-size: 40px;
+}
+.login td{
+    font-size: 20px;
+    padding: 5px;
+    
+}
+.profile{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+.change input{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-weight: bold;
+    top: 5px;
+    background-color: rgb(218, 169, 78);
+    border: none;
+    width: 80px;
+    height: 30px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.change input:hover{
+    transition: 0.3s;
+    background-color: white;
+}
+.change{
+    padding: 10px;
+}
+
+.morning{
+    height: auto;
+    width: 1300px;
+    margin: auto;
+    color: white;
+    padding-top: 100px;
+    
+    
+}
+.morning p{
+     padding-left: 20px;
+     padding-bottom: 25px;
+     font-family: Arial;
+     letter-spacing: 1px;
+     line-height: 20px;
+     color: chocolate;
+}
+ 
+.morning h1{
+    font-family: 'Times New Roman';
+    font-size: 30px;
+    padding-left: 20px;
+    margin-top: 2%;
+    letter-spacing: 1px;
+    color: rgb(44, 44, 214);
+
+}
+.morning h2{
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    padding-left: 20px;
+    margin-top: 2%;
+    letter-spacing: 1px;  
+}
+.morning h4{
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    padding-left: 20px;
+    margin-top: 1%;
+    letter-spacing: 2px;
+}
+.bbt{
+    width: 160px;
+    height: 40px;
+    background: rgb(197, 147, 53);
+    border: none;
+    border-radius: 15px;
+    font-size: 20px;
+    margin-left: 100px;
+    cursor: pointer;
+    transition: 0.3s ease;
+
+}
+.bbt a{
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+.bbt:hover{
+    background-color: #fff;
+
+}
+
+
